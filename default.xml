@@ -2,8 +2,13 @@
 <manifest>
 
   <remote  name="github"
+           fetch="git://github.com/" />
+
+<!--
+  <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
+-->
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -667,6 +672,9 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+
+  <!-- Include SomeFeaK OS manifest -->
+  <include name="snippets/somefeakos.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 

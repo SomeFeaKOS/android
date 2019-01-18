@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- SomeFeaK OS changes -->
+
+  <!-- FM -->
+  <remove-project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
+  <project path="packages/apps/FMRadio" name="SomeFeaKOS/android_packages_apps_FMRadio" revision="pie" />
+  <remove-project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" />
+  <project path="hardware/qcom/fm" name="SomeFeaKOS/android_hardware_qcom_fm" revision="pie" />
+
+  <!-- HALs -->
+  <remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" />
+  <project path="hardware/qcom/power" name="SomeFeaKOS/android_hardware_qcom_power" revision="pie" />
+  <remove-project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8916" name="SomeFeaKOS/android_hardware_qcom_display" revision="pie-msm8916" />
+  <remove-project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="SomeFeaKOS/android_hardware_qcom_audio" revision="pie-msm8916" />
+  <remove-project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media-caf/msm8916" name="SomeFeaKOS/android_hardware_qcom_media" revision="pie-msm8916" />
+  <remove-project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" />  
+  <project path="hardware/qcom/bt-caf" name="SomeFeaKOS/android_hardware_qcom_bt" revision="pie-caf" />  
+
+  <!-- SoftAP -->
+  <project path="system/qcom" name="SomeFeaKOS/android_system_qcom" revision="pie" />
+
+  <!-- Boringssl -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-15.1" />
+  <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-15.1" />
+
+  <!-- Toolcahins -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-9.0" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-gnueabi-9.0" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnueabi-9.0" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnueabi-9.0" revision="master" />
+
+  <!-- Gallery -->
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <project path="packages/apps/SnapdragonGallery" name="android_packages_apps_SnapdragonGallery" revision="pie" />
+
+  <!-- Removals -->
+  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_apps_Email" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+
+</manifest>
