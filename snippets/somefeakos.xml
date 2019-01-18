@@ -3,6 +3,18 @@
 
   <!-- SomeFeaK OS changes -->
 
+  <!-- Build -->
+  <remove-project name="LineageOS/android_build" />
+  <project path="build/make" name="SomeFeaKOS/android_build" revision="pie" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="SomeFeaKOS/android_vendor_somefeakos" revision="pie" /> <!-- Temporarily LineageOS! -->
