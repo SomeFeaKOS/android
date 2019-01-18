@@ -33,12 +33,12 @@
   <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-15.1" />
 
   <!-- Toolcahins -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-9.0" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-gnueabi-9.0" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnueabi-9.0" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnueabi-9.0" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-9.0" name="SomeFeaKOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-gnueabi-9.0" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnueabi-9.0" name="SomeFeaKOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnueabi-9.0" revision="master" />
 
   <!-- Gallery -->
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
-  <project path="packages/apps/SnapdragonGallery" name="android_packages_apps_SnapdragonGallery" revision="pie" />
+  <project path="packages/apps/SnapdragonGallery" name="SomeFeaKOS/android_packages_apps_SnapdragonGallery" revision="pie" />
 
   <!-- Removals -->
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
