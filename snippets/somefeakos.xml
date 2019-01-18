@@ -3,6 +3,10 @@
 
   <!-- SomeFeaK OS changes -->
 
+  <!-- Vendor -->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="SomeFeaKOS/android_vendor_somefeakos" revision="pie" /> <!-- Temporarily LineageOS! -->
+
   <!-- FM -->
   <remove-project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/FMRadio" name="SomeFeaKOS/android_packages_apps_FMRadio" revision="pie" />
