@@ -43,7 +43,12 @@
   <!-- Removals -->
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
-  <remove-project name="LineageOS/android_packages_apps_Email" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <remove-project name="LineageOS/android_packages_apps_Exchange" />
+  <remove-project name="LineageOS/android_packages_apps_Email" />
+
+  <!-- Bluetooth: patch from Sony after removing the Exchange/Email pair. -->
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth"  name="SomeFeaKOS/android_packages_apps_Bluetooth" revision="pie" />
 
 </manifest>
