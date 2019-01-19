@@ -61,7 +61,7 @@
 
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="SomeFeaKOS/android_vendor_somefeakos" revision="pie" /> <!-- Temporarily LineageOS! -->
+  <project path="vendor/somefeakos" name="SomeFeaKOS/android_vendor_somefeakos" revision="pie" />
 
   <!-- FM -->
   <remove-project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
