@@ -15,6 +15,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- Frameworks -->
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" name="SomeFeaKOS/android_frameworks_native" revision="pie" />
+
   <!-- SDK -->
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project path="lineage-sdk" name="SomeFeaKOS/android_lineage-sdk" revision="pie" />
