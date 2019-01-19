@@ -27,6 +27,10 @@
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/interfaces" name="SomeFeaKOS/android_hardware_lineage_interfaces" revision="pie" />
 
+  <!-- Launcher: Trebuchet -> Launcher3 -->
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Launcher3" name="SomeFeaKOS/android_packages_apps_Launcher3" revision="pie" />
+
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="SomeFeaKOS/android_frameworks_native" revision="pie" />
