@@ -15,6 +15,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- SDK -->
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="SomeFeaKOS/android_lineage-sdk" revision="pie" />
+
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="SomeFeaKOS/android_vendor_somefeakos" revision="pie" /> <!-- Temporarily LineageOS! -->
