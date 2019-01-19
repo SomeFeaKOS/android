@@ -15,6 +15,14 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- ART -->
+  <remove-project name="LineageOS/android_art" />
+  <project path="art" name="SomeFeaKOS/android_art" revision="pie" />
+
+  <!-- System: core -->
+  <remove-project name="LineageOS/android_system_core" />
+  <project path="system/core" name="SomeFeaKOS/android_system_core" revision="pie" />
+
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="SomeFeaKOS/android_frameworks_native" revision="pie" />
@@ -34,6 +42,10 @@
   <!-- SetupWizard -->
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SetupWizard" name="SomeFeaKOS/android_packages_apps_SetupWizard" revision="pie" />
+
+  <!-- LineageParts -->
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LineageParts" name="SomeFeaKOS/android_packages_apps_LineageParts" revision="pie" />
 
   <!-- SDK -->
   <remove-project name="LineageOS/android_lineage-sdk" />
