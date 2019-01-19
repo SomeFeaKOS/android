@@ -23,9 +23,17 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project path="frameworks/av" name="SomeFeaKOS/android_frameworks_av" revision="pie" />
 
+  <!-- Overlays -->
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <project path="packages/overlays/Lineage" name="SomeFeaKOS/android_packages_overlays_Lineage" revision="pie" />
+
   <!-- Settings -->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="SomeFeaKOS/android_packages_apps_Settings" revision="pie" />
+
+  <!-- SetupWizard -->
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="SomeFeaKOS/android_packages_apps_SetupWizard" revision="pie" />
 
   <!-- SDK -->
   <remove-project name="LineageOS/android_lineage-sdk" />
