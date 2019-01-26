@@ -23,6 +23,10 @@
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="SomeFeaKOS/android_system_core" revision="pie" />
 
+  <!-- System: sepolicy -->
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <project path="system/sepolicy" name="SomeFeaKOS/android_system_sepolicy" revision="pie" />
+
   <!-- Hardware: LineageOS interfaces -->
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/interfaces" name="SomeFeaKOS/android_hardware_lineage_interfaces" revision="pie" />
