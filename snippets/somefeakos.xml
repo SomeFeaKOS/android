@@ -85,11 +85,7 @@
   <remove-project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" />  
   <project path="hardware/qcom/bt-caf" name="SomeFeaKOS/android_hardware_qcom_bt" revision="pie-caf" />  
 
-  <!-- SoftAP -->
-  <project path="system/qcom" name="SomeFeaKOS/android_system_qcom" revision="pie" />
-
   <!-- Boringssl -->
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-15.1" />
   <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-15.1" />
 
   <!-- Toolcahins -->
