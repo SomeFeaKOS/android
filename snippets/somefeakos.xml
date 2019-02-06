@@ -15,6 +15,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- Build: soong -->
+  <remove-project name="LineageOS/android_build_soong" />
+  <project path="build/soong" name="SomeFeaKOS/android_build_soong" revision="pie" />
+
   <!-- ART -->
   <remove-project name="LineageOS/android_art" />
   <project path="art" name="SomeFeaKOS/android_art" revision="pie" />
