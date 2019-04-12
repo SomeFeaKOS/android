@@ -34,6 +34,10 @@
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="SomeFeaKOS/android_system_sepolicy" revision="pie" />
 
+  <!-- Device: qcom/sepolicy -->
+  <remove-project name="LineageOS/android_device_qcom_sepolicy-legacy" />
+  <project path="device/qcom/sepolicy-legacy" name="SomeFeaKOS/android_device_qcom_sepolicy-legacy" revision="pie" />
+
   <!-- Hardware: LineageOS interfaces -->
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/interfaces" name="SomeFeaKOS/android_hardware_lineage_interfaces" revision="pie" />
