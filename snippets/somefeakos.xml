@@ -17,7 +17,10 @@
 
   <!-- Build: soong -->
   <remove-project name="LineageOS/android_build_soong" />
-  <project path="build/soong" name="SomeFeaKOS/android_build_soong" revision="pie" />
+  <project path="build/soong" name="SomeFeaKOS/android_build_soong" revision="pie" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <!-- ART -->
   <remove-project name="LineageOS/android_art" />
